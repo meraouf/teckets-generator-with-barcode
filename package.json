@@ -1,0 +1,27 @@
+{
+  "name": "teckets-generator-with-barcode",
+  "version": "1.0.0",
+  "description": "application to generate teckets with barcode or qr code using javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meraouf/teckets-generator-with-barcode.git"
+  },
+  "keywords": [
+    "javascript",
+    "learn",
+    "code"
+  ],
+  "author": "raouf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/meraouf/teckets-generator-with-barcode/issues"
+  },
+  "homepage": "https://github.com/meraouf/teckets-generator-with-barcode#readme",
+  "dependencies": {
+    "sass": "^1.49.7"
+  }
+}
