@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket | Generator</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="detail shadow">
+        <h1>Details</h1>
+        <div class="detail-body">
+            <p>Logo : </p>
+            <input type="file" class="detail-body__input" id="logo-in">
+            <p>Product : </p>
+            <input type="text" class="detail-body__input" id="title">
+            <p>Code : </p>
+            <input type="text" class="detail-body__input" id="code">
+        </div>
+        <button id="btn-gen" class="btn btn-primary">Generate Ticket</button>
+    </div>
+    <div class="preview shadow">
+            <h1>Preview</h1>
+            <div id="preview">
+                <img src="" class="logo" id="logo">
+                <div class="title">
+                        <p  id="title-gen"></p>
+                        <p class="tecket-date"></p>
+                </div>
+                <img class="code" id="code-gen">
+                <button class="btn btn-secondary" id="print" onclick="{window.print()}">Print Ticket</button>
+            </div>
+    </div>
+
+
+    <script src="js/JsBarcode.all.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

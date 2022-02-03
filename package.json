@@ -4,7 +4,8 @@
   "description": "application to generate teckets with barcode or qr code using javascript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "sass --watch scss:css"
   },
   "repository": {
     "type": "git",
